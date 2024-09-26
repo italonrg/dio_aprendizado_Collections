@@ -47,5 +47,8 @@ public class ordenacaoPessoa {
 
         System.out.println(ORD.ordenadoPorIdade());
         System.out.println(ORD.ordenarPorAltura());
+
+
+
     }
 }

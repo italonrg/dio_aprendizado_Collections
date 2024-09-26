@@ -1,0 +1,24 @@
+Ideia: Criar um sistema que analisa um texto e determina se o sentimento expresso é positivo, negativo ou neutro.
+
+Habilidades a serem desenvolvidas:
+
+Processamento de linguagem natural: Utilização de técnicas de NLP para extrair informações do texto.
+Machine learning: Treinamento de modelos de machine learning para classificar o sentimento.
+Interface web: Criar uma interface para o usuário inserir o texto e visualizar o resultado.
+Tecnologias:
+
+Java: Linguagem principal.
+Biblioteca: NLTK (Natural Language Toolkit) para processamento de linguagem natural.
+Framework: TensorFlow ou PyTorch para machine learning.
+Framework web: Spring Boot.
+Por que esses projetos?
+
+E-commerce: É um tema clássico e permite explorar diversas funcionalidades de uma aplicação web.
+Análise de sentimentos: É uma área em alta e permite aplicar conceitos de machine learning.
+Complementares: Ambos os projetos complementam as habilidades aprendidas nos projetos anteriores.
+Dicas adicionais:
+
+Comece com um MVP (Minimum Viable Product): Implemente as funcionalidades mais básicas primeiro e vá adicionando novas funcionalidades gradualmente.
+Utilize frameworks: Frameworks como Spring Boot facilitam o desenvolvimento e permitem que você se concentre na lógica do seu aplicativo.
+Busque por tutoriais e exemplos: Existem muitos recursos online que podem te ajudar a aprender e a implementar seus projetos.
+Participe de comunidades: Interaja com outros desenvolvedores em fóruns e comunidades online para tirar dúvidas e trocar ideias.
