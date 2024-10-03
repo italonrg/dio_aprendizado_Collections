@@ -1,27 +1,36 @@
-import java.util.HashMap;
-import java.util.Map;
+
 import java.util.Scanner;
 
-public class Main {
+public class Start {
 
-    // Função para verificar se o cliente contratou um combo completo
     public static String verificarComboCompleto(String[] servicosContratados) {
         // Variáveis booleanas para verificar a contratação de cada serviço
-
-        Map<String , Boolean> servicosArmazenados = new HashMap<>();
-        servicosArmazenados.put("movel",false);
+        boolean movelContratado = false;
+        boolean bandaLargaContratada = false;
+        boolean tvContratada = false;
 
         // TODO: Itere sobre os serviços contratados
         for (String servico : servicosContratados) {
-            boolean selecao = false;
-            if (servico.contains("movel,tv,banda larga")){
 
+            switch (servico.toLowerCase()) {
+                case "movel":
+                    movelContratado = true;
+                    break;
+
+                case "tv":
+                    tvContratada = true;
+                    break;
+
+                case "banda larga":
+                    bandaLargaContratada = true;
+                    break;
             }
+
 
         }
 
         // TODO: Verifique se todos os serviços foram contratados
-        if () {
+        if (bandaLargaContratada && tvContratada && movelContratado) {
             return "Combo Completo";
         } else {
             return "Combo Incompleto";
